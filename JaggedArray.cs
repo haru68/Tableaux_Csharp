@@ -44,9 +44,10 @@ namespace TableauxMutlidimensionnels
                 for (int y = 0; y < JaggedArray[x].Length; y++)
                 {
                     
-                    Console.WriteLine(JaggedArray[x][y]);
+                    Console.WriteLine(JaggedArray[x][y] + "; ");
                     
                 }
+                Console.WriteLine();
             }
         }
     }
